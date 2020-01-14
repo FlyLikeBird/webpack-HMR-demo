@@ -11,7 +11,7 @@ module.exports = {
             'webpack-hot-middleware/client',
             'react-hot-loader/patch',
             //'babel-polyfill',
-            path.resolve(__dirname,'./app.js')
+            path.resolve(__dirname,'./index.js')
         ], 
         //app2:['webpack-hot-middleware/client',path.resolve(__dirname,'./app2.js')],
         vendor:['react','react-dom','react-router-dom']

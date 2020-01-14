@@ -7,11 +7,8 @@ function render(){
 }
 
 render();
-/*
 if(module.hot){
-    module.hot.accept('./src/components/button2',()=>{
-        console.log('from app2.js');
-    })
+    //module.hot.accept();
+    module.hot.accept();
 }
-*/
 
